@@ -10,6 +10,8 @@ copyright = "(c) 2016 Mitchell Smith"
 
 theme = "hyde-y"
 
+canonifyurls = true
+
 # Pagination
 paginate = 10
 paginatePath = "page"
