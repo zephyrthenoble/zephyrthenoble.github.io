@@ -1,0 +1,52 @@
+baseurl = "http://zephyrthenoble.github.io/"
+
+languageCode = "en-us"
+
+title = "Mitchell Land"
+
+metaDataFormat = "yaml"
+
+copyright = "(c) 2016 Mitchell Smith"
+
+theme = "hyde-y"
+
+contentdir = "content/post"
+layoutdir = "layouts"
+publishdir = "public"
+canonifyurls = true
+
+# Pagination
+paginate = 10
+paginatePath = "page"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+    code = "/:slug/"
+
+[taxonomies]
+    tag = "tags"
+    topic = "topics"
+
+[author]
+    name = "Mitchell Smith"
+    email = "zephyrthenoble@gmail.com"
+
+[params]
+    # You can use markdown here.
+    topline = "Code after hours"
+
+    # Sidebar position
+    # false, true, "left", "right"
+    sidebar = "left"
+
+    # Text for the top menu link, which goes the root URL for the site.
+    # Default (if omitted) is "Home".
+    home = "home"
+
+    # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "default"
+
+
+    # Sidebar social links.
+    github = "zephyrthenoble" # Your Github profile ID
