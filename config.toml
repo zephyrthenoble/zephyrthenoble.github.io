@@ -10,6 +10,9 @@ copyright = "(c) 2016 Mitchell Smith"
 
 theme = "hyde-y"
 
+contentdir = "content/post"
+layoutdir = "layouts"
+publishdir = "public"
 canonifyurls = true
 
 # Pagination
